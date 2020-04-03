@@ -8,12 +8,12 @@ body {
 }
 @font-face {
   font-family: "Horseshoes And Lemonade";
-  src: url("http://super-nova.fr/BQ/front/fonts/horseshoeslemonade.ttf");
+  src: url("/fonts/horseshoeslemonade.ttf");
 }
 
 @font-face {
   font-family: "Bebas Neue Regular";
-  src: url("http://super-nova.fr/BQ/front/fonts/BebasNeue-Regular.ttf");
+  src: url("/fonts/BebasNeue-Regular.ttf");
 }
 
 .card-title {
@@ -22,20 +22,20 @@ body {
 .card-text{
 	font-family: "Bebas Neue Regular";
 }
-.mayo 
-{  
+.mayo
+{
 color:#ffc107;
  }
 
 .bleu {
-	
+
 	color:#3c3dab
 }
 .ketchup
-{  
+{
 color:#dc3545;
  }
- 
+
  .blanc{
     color: white;
  }
