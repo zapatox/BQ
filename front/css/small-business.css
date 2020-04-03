@@ -1,0 +1,41 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+@font-face {
+  font-family: "Horseshoes And Lemonade";
+  src: url("http://super-nova.fr/BQ/front/fonts/horseshoeslemonade.ttf");
+}
+
+@font-face {
+  font-family: "Bebas Neue Regular";
+  src: url("http://super-nova.fr/BQ/front/fonts/BebasNeue-Regular.ttf");
+}
+
+.card-title {
+	font-family: "Horseshoes And Lemonade";
+}
+.card-text{
+	font-family: "Bebas Neue Regular";
+}
+.mayo 
+{  
+color:#ffc107;
+ }
+
+.bleu {
+	
+	color:#3c3dab
+}
+.ketchup
+{  
+color:#dc3545;
+ }
+ 
+ .blanc{
+    color: white;
+ }
