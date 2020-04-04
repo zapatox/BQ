@@ -20,7 +20,7 @@ body {
 	font-family: "Horseshoes And Lemonade";
 }
 .card-text{
-	font-family: "Bebas Neue Regular";
+	font-family: 'Roboto', sans-serif;
 }
 .mayo
 {
@@ -29,13 +29,35 @@ color:#ffc107;
 
 .bleu {
 
-	color:#3c3dab
+	color:#3c3dab;
 }
 .ketchup
 {
+	
 color:#dc3545;
  }
 
- .blanc{
+ .btn-mayo{
     color: white;
+	color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
  }
+ .btn-mayo:hover{
+   color: white;
+    background-color: #ffd455;
+    border-color: #ffd455;
+ }
+.progress {
+	margin-bottom:30px;
+}
+
+.progress-bar {
+ 
+    background-color:#3c3dab;
+}
+.equipe {
+	font-size:80px;
+}
+.score {
+font-size: 55px; }

@@ -12,7 +12,8 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/small-business.css" rel="stylesheet">
 
@@ -21,29 +22,29 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#">Burger Quizz</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+        <!-- <ul class="navbar-nav ml-auto"> -->
+          <!-- <li class="nav-item active"> -->
+            <!-- <a class="nav-link" href="#">Home -->
+              <!-- <span class="sr-only">(current)</span> -->
+            <!-- </a> -->
+          <!-- </li> -->
+          <!-- <li class="nav-item"> -->
+            <!-- <a class="nav-link" href="#">About</a> -->
+          <!-- </li> -->
+          <!-- <li class="nav-item"> -->
+            <!-- <a class="nav-link" href="#">Services</a> -->
+          <!-- </li> -->
+          <!-- <li class="nav-item"> -->
+            <!-- <a class="nav-link" href="#">Contact</a> -->
+          <!-- </li> -->
+        <!-- </ul> -->
       </div>
     </div>
   </nav>
@@ -55,23 +56,36 @@
     
     <!-- /.row -->
 
-    <!-- Call to Action Well -->
-    <div class="card text-white bg-secondary my-5 py-4 text-center">
+    <!-- Affichage de la phase de jeux en cours cacher les autres <P> -->
+    <div class="card text-white bg-white my-5 py-4 text-center">
       <div class="card-body">
-        <p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p>
+        <p class="card-title bleu text-center equipe">Les Nuggets</p>
+		<p class="card-title bleu text-center equipe">Le Sel ou Poivre</p>
+		<p class="card-title bleu text-center equipe">Les Menus</p>
+		<p class="card-title bleu text-center equipe">L'addition</p>
       </div>
     </div>
 
-    <!-- Content Row -->
+    <!-- Ketchup -->
     <div class="row">
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
-            <h2 class="card-title ketchup">Ketchup</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+            <h2 class="card-title ketchup equipe">Ketchup</h2>
+	  <!-- joueur Ketchup -->		
+     <div class="row">
+       <div class="flex float-left">
+         <div class="card h-100">
+           <div class="card-body">
+            <h2 class="card-title ketchup joueur text-left">- Maxime</h2>
+           
+           </div>
+         </div>
+       </div>
+     </div>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-danger blanc btn-sm">Buzzz</a>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-danger blanc btn-sm">Buzzer</a>
           </div>
         </div>
       </div>
@@ -79,38 +93,80 @@
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
-            <h2 class="card-title bleu">Scores</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
-          </div>
-          <div class="card-footer">
+            <h2 class="card-title bleu text-center equipe">Score</h2>
+<div class="row float-center">
+    <div class="col text-center card-title ketchup joueur score">
+      12
+    </div>
+    <div class="col text-center">
+     <div style="border-left:1px solid #000;height:100px;border-right:1px solid #000;height:100px" class="score">VS</div>
+    </div>
+    <div class="col text-center card-title mayo joueur score">
+     15
+    </div>
+  </div>
+  </div>
+          <!-- <div class="card-footer"> -->
              
-          </div>
+          <!-- </div> -->
         </div>
       </div>
-      <!-- /.col-md-4 -->
+      <!-- Mayo -->
       <div class="col-md-4 mb-5">
-        <div class="card h-100">
+        <div class="card h-100 text-right">
           <div class="card-body">
-            <h2 class="card-title mayo">Mayo</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+            <h2 class="card-title mayo equipe text-center">Mayo</h2>
+            <!-- joueur Mayo -->		
+     <div class="row float-right">
+       <div class="flex text-right">
+         <div class="card h-100">
+           <div class="card-body text-right">
+            <h2 class="card-title mayo joueur text-right">Léo -</h2>
+            
+           </div>
+         </div>
+       </div>
+     </div>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-warning btn-sm">Buzzz</a>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-mayo btn-sm ">Buzzer</a>
           </div>
         </div>
       </div>
       <!-- /.col-md-4 -->
 
     </div>
+	
+
+	
+	
     <!-- /.row -->
 
   </div>
   <!-- /.container -->
 
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <!-- commandes du maitre du jeu -->
+  <footer class="py-5 bg-primary">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+	
+	<div class="row float-center">
+    <div class="col text-center ">
+      <a href="#" class="btn btn-danger blanc btn-sm">Bonne réponse</a><a href="#" class="btn btn-danger blanc btn-sm">Mauvaise réponse</a>
+    </div>
+    <div class="col text-center">
+    <a href="#" class="btn btn-success blanc margin-auto">Reset Buzzer</a>
+    </div>
+    <div class="col text-center ">
+          &nbsp; <a href="#" class="btn btn-mayo btn-sm float-right">Bonne réponse</a><a href="#" class="btn btn-mayo blanc btn-sm float-right">Mauvaise réponse</a>&nbsp;
+
+    </div>
+  </div>
+	
+	  
+	  
+	  
+	
+	
     </div>
     <!-- /.container -->
   </footer>
